@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class getJson {
 
-    public static void objectToJson (Object object) throws IOException{
+    public static void objectToJson (Object object) {
         Class<?> clase = object.getClass();
 
         //con la anotacion JsonElement se puede escoger que introducir y que no en el json,

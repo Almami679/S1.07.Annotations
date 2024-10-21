@@ -10,7 +10,7 @@ import static Nivell2.Ex1.Modules.getJson.objectToJson;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         Objects letra1 = new Objects("A", "Upper", true);
 
